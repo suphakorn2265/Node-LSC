@@ -11,3 +11,4 @@ server.get('/', (req, res)=>{
     res.send(`Successful on port >> ${PORT}`);
 });
 
+module.exports(server);
