@@ -10,7 +10,7 @@ const PORT = process.env.PORT||3345;
 
 server.get('/', (req, res)=>{
     if(res.status(200)){
-        res.send('../frontend/home.js');
+        res.send('/frontend/home.html');
     }
 });
 
